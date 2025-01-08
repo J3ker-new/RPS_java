@@ -22,8 +22,8 @@ public class Main {
         //Implementing the logic behind RPS
         if (input.equals(computer)) {
             System.out.printf("Your Choice was %s and computer chose %s, resulting in a Draw!", input, computer);
-        } else if ((!input.equals("rock") || !computer.equals("scissors")) && (!input.equals("paper") || !computer.equals("rock")) && (!input.equals("scissors") || !computer.equals("paper"))) {
-            System.out.printf("Your choise was %s and the Computer chose %s, Computer Wins!", input, computer);
+        } else if ((input.equals("rock") && computer.equals("scissors")) || (input.equals("paper") && computer.equals("rock")) || (input.equals("scissors") && computer.equals("paper"))) {
+            System.out.printf("Your choice was %s and the Computer chose %s, Computer Wins!", input, computer);
         } else {
             System.out.printf("Your choice was %s, the computer chose %s, You Win!", input, computer);
         }
