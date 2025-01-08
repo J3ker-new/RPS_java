@@ -1,6 +1,6 @@
-# RPS_java
+# Rock/Paper/Scissors java
 -A simple Rock/Paper/Scissors game built in java! <br>
--The player inputs their move as a string (rock,paper,scissors) and the computer randomly selects its move.<br>
+-The player inputs their move as a string (Rock,Paper,Scissors) and the computer randomly selects its move.<br>
 ## How to play
 -Run the program in a Java IDE<br>
 -Enter your move when prompted<br>
