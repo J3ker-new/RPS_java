@@ -9,6 +9,6 @@
 -Takes player input as a string<br>
 -Random opponent move generation<br>
 ## Future Improvements<br>
--Add a score tracker
+-Add a score tracker<br>
 -Refactor the game to use classes and methods<br>
 -Introduce a Smarter AI opponent<br>
