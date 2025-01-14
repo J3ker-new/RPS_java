@@ -38,7 +38,7 @@ The main class where the program begins. It initializes the `Userchoice` and `Co
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/rock-paper-scissors.git
+   git clone https://github.com/J3ker-new/rock-paper-scissors.git
 # Navigation
 `cd` rock-paper-scissors
 
