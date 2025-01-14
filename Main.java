@@ -89,7 +89,13 @@ public class Main {
         intake.setChoice();
         input.setResponse(intake.getComputerChoice());
         System.out.print("Choose Rock/Paper/Scissors :");
-        input.setUserInput(sc.nextLine().toLowerCase());
-        input.logic();
+        String userInput1 = sc.nextLine().toLowerCase();
+        if (userInput1.equals("rock") || userInput1.equals("paper") || userInput1.equals("scissors") ) {
+            input.setUserInput(userInput1);
+            input.logic();
+        } else {
+            System.out.println("Invalid Input.");
+            System.exit(0);
+        }
     }
 }
